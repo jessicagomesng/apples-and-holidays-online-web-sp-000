@@ -26,7 +26,7 @@ holiday_hash1 = {
      puts "#{season.capitalize}:"
 
      event.each do |holiday, supplies|
-       print holiday.to_s.split("_").collect { |word| word.capitalize }.join(" ") + ":" + supplies.join(", ")
+       puts holiday.to_s.split("_").collect { |word| word.capitalize }.join(" ") + ":" + supplies.join(", ")
      end
    end
  end
