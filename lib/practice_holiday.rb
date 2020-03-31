@@ -27,9 +27,6 @@ holiday_hash1 = {
 
      event.each do |holiday, supplies|
        print holiday.to_s.split("_").collect { |word| word.capitalize }.join(" ") + ":" + supplies.join(", ")
-       supplies.each do |supply|
-         print supply.join(", ")
-       end
      end
    end
  end
