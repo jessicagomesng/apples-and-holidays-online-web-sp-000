@@ -1,4 +1,4 @@
-holiday_hash = {
+holiday_hash1 = {
    :winter => {
      :christmas => ["Lights", "Wreath"],
      :new_years => ["Party Hats"]
