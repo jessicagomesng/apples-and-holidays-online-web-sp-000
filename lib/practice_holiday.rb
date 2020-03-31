@@ -29,6 +29,7 @@ holiday_hash1 = {
        puts "#{holiday.capitalize}: "
        supplies.each do |supply|
          puts "#{supply}"
+       end 
      end
    end
  end
